@@ -175,6 +175,55 @@ a {
   color: #c4b5fd;
 }
 
+.success {
+  max-width: 640px;
+  padding: 2rem 0;
+}
+
+.success h1 {
+  font-size: 2.75rem;
+  margin: 0.25rem 0 1rem;
+}
+
+.success-card {
+  margin: 2.5rem 0;
+  background: #14141b;
+  border: 1px solid #1f1f26;
+  border-radius: 14px;
+  padding: 1.75rem;
+}
+
+.success-card h2 {
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+  color: #f5f5f7;
+}
+
+.success-steps {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.success-steps li {
+  color: #d4d4d8;
+  line-height: 1.55;
+}
+
+.success-steps strong {
+  color: #f5f5f7;
+}
+
+.success-note {
+  margin: 1.5rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid #1f1f26;
+  color: #a1a1aa;
+  font-size: 0.9rem;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
